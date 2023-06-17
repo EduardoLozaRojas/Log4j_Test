@@ -19,7 +19,7 @@ public class LoggingHelper{
 	}
 	
 	private void log(){
-		
+		logger.error("This is error log 2 ...");
 		if(logger.isDebugEnabled()){
 			logger.debug("This is debug log..");
 		}
@@ -31,7 +31,6 @@ public class LoggingHelper{
 		logger.warn("This is warn log ...MODIFIED");
 		logger.error("This is error log... ");
 		logger.fatal("This is fatal log ...");
-        logger.error("This is error log 2 ... MODIFIED");
 		
 	}
 	
