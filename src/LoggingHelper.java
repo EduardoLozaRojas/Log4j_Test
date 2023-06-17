@@ -31,6 +31,7 @@ public class LoggingHelper{
 		logger.warn("This is warn log ...MODIFIED");
 		logger.error("This is error log... ");
 		logger.fatal("This is fatal log ...");
+        logger.error("This is error log 2 ... ");
 		
 	}
 	
